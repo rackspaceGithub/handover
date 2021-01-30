@@ -1,0 +1,66 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Helvetica', Arial, sans-serif;
+}
+
+table {
+  border: 2px solid #000;
+  width: 100%;
+  text-align: left;
+  padding: 0.75em;
+  font-size: 1em;
+}
+
+#table_container {
+  margin: 3em;
+}
+
+#handover_title {
+  font-weight: bold;
+  font-size: 3.5em;	
+}
+
+.handover_table_header {
+  font-size: 1.5em;
+  padding-top: 1em;
+}
+
+.table_grids {
+  padding: 0.25em 1em;
+  min-width: 600px;
+}
+
+.table_grids > ul > li {
+  padding: 5px 0;
+}
+
+#handover_time_section {
+  padding-bottom: 1.5em;
+}
+
+#textarea_section {
+  margin: 0.25em 0;
+}
+
+#textarea_section_output {
+  white-space: pre-line;
+}
+
+.navigation_buttons_container {
+  margin: 6em 0;
+}
+
+.navigation_buttons {
+  padding: 1.5em 1.75em;
+  font-size: 1.25em; 
+  cursor: pointer;
+}
+
+#incoming_list {
+  padding-left: 50px;
+}
+
+#empty_handover_message {
+  font-size: 24px;
+}

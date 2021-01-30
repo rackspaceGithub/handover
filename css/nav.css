@@ -1,0 +1,45 @@
+/* page banner img */
+#handover_top_banner_side_small { 
+  padding: 2.5em 3em;
+  width: 250px;
+  filter: brightness(0) invert(1);
+}
+
+nav {
+  font-family: Helvetica, Arial, sans-serif;
+  background-color: #333;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  overflow: hidden;
+}
+
+nav ul li {
+  float: left;
+}
+
+#nav_link {
+  padding: 50px 2em;
+  font-size: 22px;
+  display: inline-block;
+  text-align: center;
+}
+
+#nav_image {
+  float: right;
+}
+
+#nav_link:link,
+#nav_link:visited,
+#nav_link:active {
+  color: #FFF;
+  text-decoration: none;
+}
+
+#nav_link:hover { 
+  text-decoration: underline;
+  cursor: pointer;
+}

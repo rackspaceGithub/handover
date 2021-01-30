@@ -1,0 +1,34 @@
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+th {
+  text-align: left;
+}
+
+td,
+th {
+  width: 275px;
+  padding-left: 0.5em;
+}
+
+#empty_dirs {
+  padding-left: 1em;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 40%;
+  padding: 1em 0 0 3em;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}

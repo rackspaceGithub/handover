@@ -1,0 +1,30 @@
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+#back_button {
+  padding: 0.5em 2em;
+  margin: 1.75em 0 0 1.25em;
+}
+
+#archived_handover_file {
+  border-collapse: collapse;
+  width: 80%;
+  margin: 2em 1em;
+}
+
+#archived_handover_file td, 
+#archived_handover_file th {
+  border: 1px solid #ddd;
+  padding: 0.5em;
+}
+
+#archived_handover_file th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #0d0d0d;
+  color: #FFF;
+}
